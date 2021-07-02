@@ -1,0 +1,57 @@
+.ap_navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	box-shadow: 0 2px 2px rgba($color: #000000, $alpha: 0.1);
+
+	div.search_bar {
+		margin-left: 0.5rem;
+		display: flex;
+		align-items: center;
+		input {
+			border: 0;
+			outline: 0;
+			background: none;
+			&:focus {
+				border-bottom: 1px solid #ddd;
+			}
+		}
+	}
+	div.control_bar {
+		width: 100%;
+		max-width: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.icon_wrapper {
+			position: relative;
+			.badge {
+				position: absolute;
+				top: -5px;
+				left: 10px;
+				padding: 2px;
+				display: inline-block;
+				border-radius: 50%;
+				font-size: 10px;
+				color: white;
+			}
+			.mail {
+				background-color: #20c997;
+			}
+			.notification {
+				background-color: #fa8b0c;
+			}
+		}
+		img {
+			border-radius: 50%;
+		}
+	}
+}
+
+/* .admin_navbar_container ul li a:hover,
+.admin_navbar_container ul li a:focus,
+.admin_navbar_container ul li a.active {
+	border-bottom: 3px solid #3498db;
+	color: #3498db;
+} */
