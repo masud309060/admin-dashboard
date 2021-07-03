@@ -1,0 +1,25 @@
+@import "./partials/variables";
+
+.ap_footer {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	ul.ap_footer_nav {
+		list-style-type: none;
+		li {
+			float: left;
+			a {
+				text-decoration: none;
+				font-weight: 500;
+				padding: 1rem;
+				color: $secondary_light;
+				&:hover,
+				&:focus,
+				&.active {
+					color: $blue_light;
+				}
+			}
+		}
+	}
+}

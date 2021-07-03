@@ -1,10 +1,19 @@
+@import "../styles/partials/variables";
+
 .ap_sidebar {
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
+	small {
+		display: block;
+		padding-top: 1rem;
+		padding-bottom: 0.5rem;
+		padding-left: 1rem;
+		color: $secondary;
+	}
 	.ap_sidebar_main_menu,
 	.ap_sidebar_components {
-		height: 48%;
+		height: 320px;
 		width: 230px;
 		overflow-y: scroll;
 		overflow-x: hidden;
@@ -16,34 +25,30 @@
 			border-radius: 0.5rem;
 		}
 		&::-webkit-scrollbar-thumb {
-			background-color: #ddd;
-		}
-		small {
-			display: block;
-			padding-top: 0.5rem;
-			padding-bottom: 0.5rem;
-			padding-left: 1rem;
-			color: #aaa;
+			background-color: $secondary_light;
 		}
 		div.sidebar_item {
 			width: 220px;
-			padding: 0.5rem 1rem;
+			height: 42px;
+			padding-left: 1rem;
+			padding-right: 1rem;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			color: #666;
+			color: $secondary;
 			cursor: pointer;
 			&:hover,
 			&:focus,
 			&.active {
-				background-color: #eee;
-				color: #5f63f2;
+				background-color: #c6d4d2;
+				color: $blue_light;
 			}
 			div {
 				display: flex;
 				align-items: center;
 				span:nth-child(1) {
 					margin-right: 5px;
+					color: $secondary;
 				}
 			}
 		}

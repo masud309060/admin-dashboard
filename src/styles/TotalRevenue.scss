@@ -1,0 +1,40 @@
+@import "../styles/partials/variables";
+
+.total_revenue {
+	background-color: #fff;
+	flex: 1;
+	margin: 5px 10px;
+	border-radius: 10px;
+	.header {
+		display: flex;
+		justify-content: space-between;
+		padding: 1.5rem 1rem;
+		border-bottom: 1px solid #ddd;
+		h3 {
+			font-size: 1.25rem;
+			color: $secondary_dark;
+		}
+	}
+	.period {
+		padding-left: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		display: flex;
+		div:first-child {
+			margin-right: 2rem;
+			color: $blue_light;
+			p {
+				font-size: 1.75rem;
+			}
+		}
+		div:last-child {
+			color: $secondary;
+			p {
+				font-size: 1.75rem;
+			}
+		}
+	}
+	.line_chart {
+		height: 200px;
+	}
+}

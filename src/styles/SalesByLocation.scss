@@ -1,0 +1,57 @@
+@import "../styles/partials/variables";
+
+.sales_by_location {
+	background-color: #fff;
+	flex: 1;
+	margin: 5px 10px;
+	border-radius: 10px;
+	.header {
+		display: flex;
+		justify-content: space-between;
+		padding: 1.5rem 1rem;
+		border-bottom: 1px solid #ddd;
+		h3 {
+			font-size: 1.25rem;
+			color: $secondary_dark;
+		}
+	}
+	.map_area {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 1rem;
+	}
+	.sales_table {
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 1rem;
+			tr {
+				text-align: left;
+				th {
+					padding: 0.5rem 1rem;
+					color: $secondary_light;
+				}
+				th:nth-child(2) {
+					text-align: center;
+				}
+				th:last-child {
+					text-align: end;
+				}
+				td {
+					color: $secondary;
+					padding: 0.5rem 1rem;
+				}
+				td:nth-child(2) {
+					text-align: center;
+				}
+				td:last-child {
+					text-align: end;
+				}
+			}
+			tr:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+}

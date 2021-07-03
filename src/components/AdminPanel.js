@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/AdminPanel.scss';
 import AdminLogo from './AdminLogo';
+import ApBody from './ApBody';
+import ApFooter from './ApFooter';
 import ApNavbar from './ApNavbar';
 import ApSidebar from './ApSidebar';
 
@@ -10,7 +12,8 @@ const AdminPanel = () => {
             <AdminLogo />
             <ApNavbar />
             <ApSidebar />
-            <div>Main body</div>
+            <ApBody />
+            <ApFooter />
         </div>
     );
 };

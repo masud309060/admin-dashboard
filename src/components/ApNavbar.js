@@ -34,8 +34,8 @@ const ApNavbar = () => {
                     width="30"
                 />
                 <img
-                    src="https://www.kindpng.com/picc/m/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png"
-                    alt="profile" 
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="profile"
                     height="40"
                     width="40"
                 />

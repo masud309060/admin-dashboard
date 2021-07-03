@@ -1,0 +1,43 @@
+@import "../styles/partials/variables";
+
+.top_selling_products {
+	background-color: #fff;
+	flex: 1;
+	margin: 10px;
+	border-radius: 10px;
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+		padding: 1.5rem 1rem;
+		border-bottom: 1px solid #ddd;
+		h3 {
+			font-size: 1.25rem;
+			color: $secondary_dark;
+		}
+	}
+	.table_container {
+		table.table {
+			border-collapse: collapse;
+			width: 100%;
+			tr {
+				border-bottom: 1px solid #ddd;
+				text-align: left;
+				th {
+					padding: 1rem;
+					color: $secondary_dark;
+				}
+				td {
+					color: $secondary;
+					padding: 1rem;
+				}
+			}
+			tr:last-child {
+				border-bottom: none;
+			}
+			tr:nth-child(4n) {
+				background-color: #f1f1f1;
+			}
+		}
+	}
+}

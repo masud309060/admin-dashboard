@@ -1,0 +1,28 @@
+@import "../styles/partials/variables";
+
+.bar_Chart_card {
+	background-color: #fff;
+	padding: 16px;
+	border-radius: 10px;
+	margin: 10px 8px;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	.bar_Chart_card_content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-width: 100px;
+		.header {
+			flex: 1;
+			h1 {
+				font-size: 2rem;
+				color: $secondary_dark;
+			}
+		}
+	}
+	.bar_Chart_card_graph {
+		flex: 1;
+	}
+}
