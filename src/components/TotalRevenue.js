@@ -92,7 +92,7 @@ const TotalRevenue = () => {
                 </div>
 			</div>
 			<div className="line_chart">
-				<ResponsiveContainer width="100%" height="100%" aspect={2.6}>
+				<ResponsiveContainer width="100%" aspect={2.6}>
 					<LineChart
 						width={500}
 						height={300}

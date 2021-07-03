@@ -10,7 +10,7 @@ const RevinueByDevice = () => {
         { name: 'Tablets', value: 2420, percentage: 25 },
     ];
 
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+    const COLORS = ['#5F63F2', '#20C997', '#FA8B0C', '#FF8042'];
     return (
         <div className="revenue_by_device">
             <div className="header">

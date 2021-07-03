@@ -18,11 +18,11 @@ const ApNavbar = () => {
             </div>
             <div className="control_bar">
                 <div className="icon_wrapper">
-                    <div className="badge mail"> </div>
+                    <div className="badge mail" />
                     <MailOutline />
                 </div>
                 <div className="icon_wrapper">
-                    <div className="badge notification"> </div>
+                    <div className="badge notification" />
                     <NotificationsNone />
                 </div>
                 <SettingsOutlined />
