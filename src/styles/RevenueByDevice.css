@@ -1,0 +1,87 @@
+.revenue_by_device {
+  background-color: #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.revenue_by_device .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.revenue_by_device .header h3 {
+  font-size: 1.25rem;
+  color: #272b41;
+  padding: 1.5rem 1rem;
+}
+
+.revenue_by_device .header ul.header_nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1rem;
+}
+
+.revenue_by_device .header ul.header_nav li {
+  float: left;
+  padding: 1.5rem 0.25rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.revenue_by_device .header ul.header_nav li:hover, .revenue_by_device .header ul.header_nav li:focus, .revenue_by_device .header ul.header_nav li.active {
+  border-bottom: 2px solid #5f63f2;
+  color: #5f63f2;
+}
+
+.revenue_by_device .Pie_chart_table {
+  margin-bottom: 1rem;
+}
+
+.revenue_by_device .Pie_chart_table .table_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 2rem;
+}
+
+.revenue_by_device .Pie_chart_table .table_row div.row_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+}
+
+.revenue_by_device .Pie_chart_table .table_row div.row_item .circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=RevenueByDevice.css.map */

@@ -1,0 +1,32 @@
+.ap_footer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ap_footer ul.ap_footer_nav {
+  list-style-type: none;
+}
+
+.ap_footer ul.ap_footer_nav li {
+  float: left;
+}
+
+.ap_footer ul.ap_footer_nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1rem;
+  color: #adb4d2;
+}
+
+.ap_footer ul.ap_footer_nav li a:hover, .ap_footer ul.ap_footer_nav li a:focus, .ap_footer ul.ap_footer_nav li a.active {
+  color: #5f63f2;
+}
+/*# sourceMappingURL=ApFooter.css.map */

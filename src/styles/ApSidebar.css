@@ -1,0 +1,86 @@
+.ap_sidebar {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ap_sidebar small {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  color: #617075;
+}
+
+.ap_sidebar .ap_sidebar_main_menu,
+.ap_sidebar .ap_sidebar_components {
+  height: 320px;
+  width: 230px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.ap_sidebar .ap_sidebar_main_menu::-webkit-scrollbar,
+.ap_sidebar .ap_sidebar_components::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.ap_sidebar .ap_sidebar_main_menu::-webkit-scrollbar-track,
+.ap_sidebar .ap_sidebar_components::-webkit-scrollbar-track {
+  background-color: #eee;
+  border-radius: 0.5rem;
+}
+
+.ap_sidebar .ap_sidebar_main_menu::-webkit-scrollbar-thumb,
+.ap_sidebar .ap_sidebar_components::-webkit-scrollbar-thumb {
+  background-color: #adb4d2;
+}
+
+.ap_sidebar .ap_sidebar_main_menu div.sidebar_item,
+.ap_sidebar .ap_sidebar_components div.sidebar_item {
+  width: 220px;
+  height: 42px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #617075;
+  cursor: pointer;
+}
+
+.ap_sidebar .ap_sidebar_main_menu div.sidebar_item:hover, .ap_sidebar .ap_sidebar_main_menu div.sidebar_item:focus, .ap_sidebar .ap_sidebar_main_menu div.sidebar_item.active,
+.ap_sidebar .ap_sidebar_components div.sidebar_item:hover,
+.ap_sidebar .ap_sidebar_components div.sidebar_item:focus,
+.ap_sidebar .ap_sidebar_components div.sidebar_item.active {
+  background-color: #c6d4d2;
+  color: #5f63f2;
+}
+
+.ap_sidebar .ap_sidebar_main_menu div.sidebar_item div,
+.ap_sidebar .ap_sidebar_components div.sidebar_item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ap_sidebar .ap_sidebar_main_menu div.sidebar_item div span:nth-child(1),
+.ap_sidebar .ap_sidebar_components div.sidebar_item div span:nth-child(1) {
+  margin-right: 5px;
+  color: #617075;
+}
+/*# sourceMappingURL=ApSidebar.css.map */

@@ -1,0 +1,78 @@
+.sales_by_location {
+  background-color: #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
+
+.sales_by_location .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.sales_by_location .header h3 {
+  font-size: 1.25rem;
+  color: #272b41;
+}
+
+.sales_by_location .map_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.sales_by_location .sales_table table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.sales_by_location .sales_table table tr {
+  text-align: left;
+}
+
+.sales_by_location .sales_table table tr th {
+  padding: 0.5rem 1rem;
+  color: #adb4d2;
+}
+
+.sales_by_location .sales_table table tr th:nth-child(2) {
+  text-align: center;
+}
+
+.sales_by_location .sales_table table tr th:last-child {
+  text-align: end;
+}
+
+.sales_by_location .sales_table table tr td {
+  color: #617075;
+  padding: 0.5rem 1rem;
+}
+
+.sales_by_location .sales_table table tr td:nth-child(2) {
+  text-align: center;
+}
+
+.sales_by_location .sales_table table tr td:last-child {
+  text-align: end;
+}
+
+.sales_by_location .sales_table table tr:last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=SalesByLocation.css.map */

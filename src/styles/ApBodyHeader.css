@@ -1,0 +1,72 @@
+.ap_body_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ap_body_header h2 {
+  font-size: 1.25rem;
+  color: #272b41;
+}
+
+.ap_body_header div.ap_body_btn_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ap_body_header div.ap_body_btn_group .ap_body_btn {
+  height: 40px;
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #272b41;
+  cursor: pointer;
+}
+
+.ap_body_header div.ap_body_btn_group .ap_body_btn select {
+  border: 0;
+  background: none;
+  outline: 0;
+  width: 220px;
+}
+
+.ap_body_header div.ap_body_btn_group .ap_body_btn span {
+  margin-left: 5px;
+}
+
+.ap_body_header div.ap_body_btn_group .ap_body_btn .icon {
+  color: #5f63f2;
+}
+
+.ap_body_header div.ap_body_btn_group .primary_btn {
+  border: 0;
+  outline: 0;
+  background: #5f63f2;
+  color: #fff;
+}
+/*# sourceMappingURL=ApBodyHeader.css.map */

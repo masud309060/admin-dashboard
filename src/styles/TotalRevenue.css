@@ -1,0 +1,55 @@
+.total_revenue {
+  background-color: #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
+
+.total_revenue .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.total_revenue .header h3 {
+  font-size: 1.25rem;
+  color: #272b41;
+}
+
+.total_revenue .period {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.total_revenue .period div:first-child {
+  margin-right: 2rem;
+  color: #5f63f2;
+}
+
+.total_revenue .period div:first-child p {
+  font-size: 1.75rem;
+}
+
+.total_revenue .period div:last-child {
+  color: #617075;
+}
+
+.total_revenue .period div:last-child p {
+  font-size: 1.75rem;
+}
+
+.total_revenue .line_chart {
+  height: 200px;
+}
+/*# sourceMappingURL=TotalRevenue.css.map */
