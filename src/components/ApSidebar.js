@@ -93,7 +93,7 @@ const ApSidebar = () => {
             title: 'Map',
             forwardIcon: <ArrowForwardIosRounded style={{ fontSize: '12px' }} />,
         },
-    ];
+    ]; 
 
     return (
         <div className="ap_sidebar">
