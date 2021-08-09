@@ -1,10 +1,8 @@
 # Admin Dashboard
 
-A sample eye catching admin dashboard design with some dynamic chart.
+A sample eye catching dashboard design with some dynamic chart.
 
 ## [Live](https://dashboard-local.netlify.app/)
-
-![dashboard-image](./public/images/dashboard.png)
 
 ## technology
 
@@ -14,3 +12,6 @@ A sample eye catching admin dashboard design with some dynamic chart.
 -   Sass
 -   recharts
 -   react-google-charts etc.
+
+![dashboard-image](./public/images/dashboard.png)
+
